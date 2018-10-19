@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.ContextMenu?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="219.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="scheduler.controller.ReportsViewController">
+   <children>
+      <AnchorPane prefHeight="189.0" prefWidth="231.0">
+         <children>
+            <DatePicker fx:id="datePicker" layoutX="7.0" layoutY="14.0" prefHeight="25.0" prefWidth="209.0">
+               <contextMenu>
+                  <ContextMenu>
+                    <items>
+                      <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+                    </items>
+                  </ContextMenu>
+               </contextMenu>
+            </DatePicker>
+            <MenuButton fx:id="userCalendar" layoutX="27.0" layoutY="51.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="165.0" text="Consultant Schedules" />
+            <Label fx:id="user" layoutX="37.0" layoutY="87.0" prefHeight="37.0" prefWidth="165.0" text="Label">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label fx:id="user1" layoutX="50.0" layoutY="124.0" prefHeight="37.0" prefWidth="126.0" text="Regional Statistics">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="0.7857142857142857" startX="1.0">
+                     <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="#3f28d0" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill></Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="anchorPane" prefHeight="435.0" prefWidth="211.0">
+         <children>
+            <PieChart fx:id="pieChart" layoutX="2.0" layoutY="2.0" prefHeight="433.0" prefWidth="209.0" />
+         </children></AnchorPane>
+   </children>
+</VBox>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="664.0" prefWidth="1176.0" stylesheets="@GUI.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="scheduler.Launch">
+   <children>
+      <BorderPane prefHeight="721.0" prefWidth="1280.0">
+         <top>
+            <HBox prefHeight="49.0" prefWidth="1024.0" BorderPane.alignment="CENTER">
+               <children>
+                  <MenuBar prefHeight="25.0" prefWidth="1547.0" styleClass="GUI.css">
+                    <menus>
+                      <Menu mnemonicParsing="false" text="%file">
+                        <items>
+                          <MenuItem mnemonicParsing="false" text="%new" />
+                              <MenuItem mnemonicParsing="false" onAction="#handleOnActionConnect" text="%connect" />
+                              <MenuItem mnemonicParsing="false" onAction="#handleOnActionDisconnect" text="%disconnect" />
+                              <SeparatorMenuItem mnemonicParsing="false" />
+                              <MenuItem mnemonicParsing="false" onAction="#handleOnActionExit" text="%exit" />
+                        </items>
+                      </Menu>
+                      <Menu mnemonicParsing="false" text="%edit">
+                        <items>
+                              <Menu mnemonicParsing="false" text="Language">
+                                 <items>
+                                    <MenuItem mnemonicParsing="false" onAction="#handleOnActionSelectLanguageEnglish" text="English (Americas)" />
+                                    <MenuItem mnemonicParsing="false" onAction="#handleOnActionSelectLanguageFrench" text="French (France)" />
+                                    <MenuItem mnemonicParsing="false" onAction="#handleOnActionSelectLanguageSpanish" text="Spanish (Spain)" />
+                                    <SeparatorMenuItem mnemonicParsing="false" />
+                                    <MenuItem mnemonicParsing="false" onAction="#handleOnActionSelectLanguageDefault" text="System AutoDetect" />
+                                 </items>
+                              </Menu>
+                              <Menu mnemonicParsing="false" text="%records">
+                                 <items>
+                                    <MenuItem mnemonicParsing="false" onAction="#handleMaintainAppointments" text="%maintainAppointments" />
+                                    <MenuItem mnemonicParsing="false" onAction="#handleMaintainCustomers" text="%maintainCustomers" />
+                                 </items>
+                              </Menu>
+                        </items>
+                      </Menu>
+                        <Menu mnemonicParsing="false" text="%view">
+                           <items>
+                              <Menu mnemonicParsing="false" text="%query">
+                                 <items>
+                                    <MenuItem mnemonicParsing="false" onAction="#handleViewUserTable" text="%user" />
+                                    <MenuItem mnemonicParsing="false" onAction="#handleViewCustomerTable" text="%customer" />
+                                    <MenuItem mnemonicParsing="false" onAction="#handleViewAddressTable" text="%address" />
+                                    <MenuItem mnemonicParsing="false" onAction="#handleViewCityTable" text="%city" />
+                                    <MenuItem mnemonicParsing="false" onAction="#handleViewCountryTable" text="%country" />
+                                    <MenuItem mnemonicParsing="false" onAction="#handleViewAppointmentTable" text="%appointment" />
+                                    <MenuItem mnemonicParsing="false" onAction="#handleViewReminderTable" text="%reminder" />
+                                 </items>
+                              </Menu>
+                              <Menu mnemonicParsing="false" text="%reports">
+                                <items>
+                                    <MenuItem mnemonicParsing="false" onAction="#handleTypeStatistics" text="%numApptTypes" />
+                                    <MenuItem mnemonicParsing="false" onAction="#handleViewSchedules" text="%consultantSche" />
+                                  <MenuItem mnemonicParsing="false" onAction="#handleLocationStatistics" text="%custLocaStats" />
+                                </items>
+                              </Menu>
+                              <SeparatorMenuItem mnemonicParsing="false" />
+                           </items>
+                        </Menu>
+                      <Menu mnemonicParsing="false" text="%help">
+                        <items>
+                          <MenuItem mnemonicParsing="false" text="%about" />
+                              <SeparatorMenuItem mnemonicParsing="false" />
+                              <MenuItem mnemonicParsing="false" onAction="#handleMenuOpenReadMe" text="%readMe" />
+                        </items>
+                      </Menu>
+                    </menus>
+                  </MenuBar>
+               </children></HBox>
+         </top>
+         <left>
+            <VBox fx:id="scheduleVbox" prefHeight="537.0" prefWidth="224.0" BorderPane.alignment="CENTER" />
+         </left>
+         <bottom>
+            <HBox prefHeight="26.0" prefWidth="1280.0" BorderPane.alignment="CENTER" />
+         </bottom>
+         <center>
+            <Pane prefHeight="646.0" prefWidth="953.0" scaleShape="false" BorderPane.alignment="CENTER">
+               <children>
+                  <VBox fx:id="calendarVbox" prefHeight="200.0" prefWidth="100.0" />
+               </children>
+               <BorderPane.margin>
+                  <Insets />
+               </BorderPane.margin></Pane>
+         </center>
+         <right>
+            <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="645.0" prefWidth="172.0" BorderPane.alignment="TOP_LEFT">
+               <children>
+                  <AnchorPane prefHeight="156.0" prefWidth="172.0" />
+                  <AnchorPane fx:id="rightAnchor" prefHeight="311.0" prefWidth="172.0" />
+               </children></VBox>
+         </right>
+      </BorderPane>
+   </children>
+</VBox>

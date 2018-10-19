@@ -1,0 +1,176 @@
+Aug 30, 2017 5:47:34 PM scheduler.Controller getLogger
+WARNING: Invalid user name UTC_TIMESTAMP: [2017-08-31T00:47:34.470] USER: dkell50
+Aug 30, 2017 5:47:45 PM scheduler.Controller getLogger
+INFO:  Login success UTC_TIMESTAMP: [2017-08-31T00:47:45.697] USER: dkell40
+Aug 30, 2017 5:47:55 PM scheduler.Controller getLogger
+INFO: logged out UTC TIMESTAMP: [2017-08-31T00:47:55.227] USER: dkell40
+Aug 30, 2017 5:52:07 PM scheduler.Controller getLogger
+INFO:  Login success UTC_TIMESTAMP: [2017-08-31T00:52:07.828] USER: test
+Aug 30, 2017 5:52:19 PM scheduler.Controller getLogger
+INFO: logged out UTC TIMESTAMP: [2017-08-31T00:52:19.142] USER: test
+Aug 30, 2017 8:14:57 PM scheduler.Controller getAuditLog
+INFO:  Login success UTC_TIMESTAMP: [2017-08-31T03:14:57.058] USER: dkell40
+Aug 30, 2017 8:16:45 PM scheduler.Controller getAuditLog
+INFO: logged out UTC_TIMESTAMP: [2017-08-31T03:16:45.639] USER: dkell40
+Aug 30, 2017 9:50:36 PM scheduler.Controller getAuditLog
+INFO:  Login success UTC_TIMESTAMP: [2017-08-31T04:50:36.131] USER: dkell40
+Aug 30, 2017 9:58:11 PM scheduler.Controller getAuditLog
+INFO:  Login success UTC_TIMESTAMP: [2017-08-31T04:58:11.306] USER: dkell40
+Aug 30, 2017 9:59:13 PM scheduler.Controller getAuditLog
+INFO:  Login success UTC_TIMESTAMP: [2017-08-31T04:59:13.423] USER: dkell40
+Aug 30, 2017 10:06:22 PM scheduler.Controller getAuditLog
+INFO:  Login success UTC_TIMESTAMP: [2017-08-31T05:06:22.197] USER: dkell40
+Aug 31, 2017 1:33:40 PM scheduler.Controller getAuditLog
+INFO:  Login success UTC_TIMESTAMP: [2017-08-31T20:33:40.695] USER: dkell40
+Aug 31, 2017 1:40:23 PM scheduler.Controller getAuditLog
+INFO: logged out UTC_TIMESTAMP: [2017-08-31T20:40:23.250] USER: dkell40
+Aug 31, 2017 1:40:27 PM scheduler.Controller getAuditLog
+WARNING: passwordField cannot be empty UTC_TIMESTAMP: [2017-08-31T20:40:27.666] USER: test
+Aug 31, 2017 1:40:33 PM scheduler.Controller getAuditLog
+INFO:  Login success UTC_TIMESTAMP: [2017-08-31T20:40:33.070] USER: test
+Aug 31, 2017 1:41:59 PM scheduler.Controller getAuditLog
+INFO: logged out UTC_TIMESTAMP: [2017-08-31T20:41:59.820] USER: test
+Aug 31, 2017 1:42:18 PM scheduler.Controller getAuditLog
+INFO:  Login success UTC_TIMESTAMP: [2017-08-31T20:42:18.959] USER: rhendrix50
+Aug 31, 2017 2:48:15 PM scheduler.Controller getAuditLog
+INFO:  Login success UTC_TIMESTAMP: [2017-08-31T21:48:15.028] USER: dkell40
+Aug 31, 2017 3:02:51 PM scheduler.Controller getAuditLog
+INFO:  Login success UTC_TIMESTAMP: [2017-08-31T22:02:51.427] USER: dkell40
+Aug 31, 2017 3:03:30 PM scheduler.Controller getAuditLog
+INFO: logged out UTC_TIMESTAMP: [2017-08-31T22:03:30.067] USER: dkell40
+Aug 31, 2017 3:06:43 PM scheduler.Controller getAuditLog
+INFO:  Login success UTC_TIMESTAMP: [2017-08-31T22:06:43.420] USER: dkell40
+Aug 31, 2017 4:03:29 PM scheduler.Controller getAuditLog
+INFO: logged out UTC_TIMESTAMP: [2017-08-31T23:03:29.916] USER: dkell40
+Aug 31, 2017 7:22:38 PM scheduler.Controller getAuditLog
+INFO:  Login success UTC_TIMESTAMP: [2017-09-01T02:22:38.568] USER: test
+Aug 31, 2017 7:51:00 PM scheduler.Controller getAuditLog
+INFO: logged out UTC_TIMESTAMP: [2017-09-01T02:51:00.828] USER: test
+Aug 31, 2017 7:59:33 PM scheduler.Controller getAuditLog
+INFO:  Login success UTC_TIMESTAMP: [2017-09-01T02:59:33.123] USER: test
+Aug 31, 2017 8:00:03 PM scheduler.Controller getAuditLog
+INFO: logged out UTC_TIMESTAMP: [2017-09-01T03:00:03.051] USER: test
+Aug 31, 2017 8:02:37 PM scheduler.Controller getAuditLog
+INFO:  Login success UTC_TIMESTAMP: [2017-09-01T03:02:37.764] USER: test
+Aug 31, 2017 8:11:06 PM scheduler.Controller getAuditLog
+INFO:  Login success UTC_TIMESTAMP: [2017-09-01T03:11:06.360] USER: test
+Aug 31, 2017 8:13:16 PM scheduler.Controller getAuditLog
+INFO: logged out UTC_TIMESTAMP: [2017-09-01T03:13:16.931] USER: test
+Aug 31, 2017 8:13:47 PM scheduler.Controller getAuditLog
+INFO:  Login success UTC_TIMESTAMP: [2017-09-01T03:13:47.572] USER: test
+Aug 31, 2017 8:20:21 PM scheduler.Controller getAuditLog
+INFO: logged out UTC_TIMESTAMP: [2017-09-01T03:20:21.490] USER: null
+Aug 31, 2017 8:20:30 PM scheduler.Controller getAuditLog
+INFO:  Login success UTC_TIMESTAMP: [2017-09-01T03:20:30.565] USER: test
+Aug 31, 2017 8:22:58 PM scheduler.Controller getAuditLog
+INFO: logged out UTC_TIMESTAMP: [2017-09-01T03:22:58.958] USER: test
+Aug 31, 2017 8:23:08 PM scheduler.Controller getAuditLog
+INFO:  Login success UTC_TIMESTAMP: [2017-09-01T03:23:08.406] USER: dkell40
+Sep 01, 2017 11:28:10 AM scheduler.Controller getAuditLog
+WARNING:  cannot be empty UTC_TIMESTAMP: [2017-09-01T18:28:10.093] USER: 
+Sep 01, 2017 11:28:17 AM scheduler.Controller getAuditLog
+WARNING: Invalid user name UTC_TIMESTAMP: [2017-09-01T18:28:17.176] USER: dqwedqd
+Sep 01, 2017 11:28:20 AM scheduler.Controller getAuditLog
+WARNING: Invalid user name UTC_TIMESTAMP: [2017-09-01T18:28:20.448] USER: dqwedqd
+Sep 01, 2017 11:28:27 AM scheduler.Controller getAuditLog
+WARNING: Invalid password forUSER: dkell40 UTC_TIMESTAMP: [2017-09-01T18:28:27.056] USER: dkell40
+Sep 01, 2017 11:28:44 AM scheduler.Controller getAuditLog
+INFO: logged out UTC_TIMESTAMP: [2017-09-01T18:28:44.090] USER: null
+Sep 01, 2017 11:57:45 AM scheduler.Controller getAuditLog
+WARNING: userField cannot be empty UTC_TIMESTAMP: [2017-09-01T18:57:45.759] USER: 
+Sep 01, 2017 11:57:49 AM scheduler.Controller getAuditLog
+WARNING: userField Password cannot have spaces UTC_TIMESTAMP: [2017-09-01T18:57:49.318] USER:  
+Sep 01, 2017 11:58:18 AM scheduler.Controller getAuditLog
+WARNING: userField cannot be empty UTC_TIMESTAMP: [2017-09-01T18:58:18.350] USER: 
+Sep 01, 2017 11:59:08 AM scheduler.Controller getAuditLog
+WARNING: userField cannot be empty UTC_TIMESTAMP: [2017-09-01T18:59:08.103] USER: 
+Sep 01, 2017 11:59:14 AM scheduler.Controller getAuditLog
+WARNING: userField cannot be empty UTC_TIMESTAMP: [2017-09-01T18:59:14.910] USER: 
+Sep 01, 2017 12:00:11 PM scheduler.Controller getAuditLog
+WARNING: Invalid password forUSER: dkell40 UTC_TIMESTAMP: [2017-09-01T19:00:11.597] USER: dkell40
+Sep 01, 2017 12:03:42 PM scheduler.Controller getAuditLog
+WARNING: passwordField cannot be empty UTC_TIMESTAMP: [2017-09-01T19:03:42.699] USER: dkell40
+Sep 01, 2017 12:04:19 PM scheduler.Controller getAuditLog
+WARNING: passwordField cannot be empty UTC_TIMESTAMP: [2017-09-01T19:04:19.150] USER: dkell40
+Sep 01, 2017 12:09:47 PM scheduler.Controller getAuditLog
+WARNING: passwordField cannot be empty UTC_TIMESTAMP: [2017-09-01T19:09:47.719] USER: dkell40
+Sep 01, 2017 12:09:51 PM scheduler.Controller getAuditLog
+WARNING: Invalid user name UTC_TIMESTAMP: [2017-09-01T19:09:51.862] USER: dkell4
+Sep 01, 2017 12:10:02 PM scheduler.Controller getAuditLog
+INFO: logged out UTC_TIMESTAMP: [2017-09-01T19:10:02.774] USER: null
+Sep 01, 2017 12:13:39 PM scheduler.Controller getAuditLog
+WARNING: userField cannot be empty UTC_TIMESTAMP: [2017-09-01T19:13:39.199] USER: 
+Sep 01, 2017 12:13:45 PM scheduler.Controller getAuditLog
+WARNING: Invalid user name UTC_TIMESTAMP: [2017-09-01T19:13:45.574] USER: qweqw
+Sep 01, 2017 12:13:50 PM scheduler.Controller getAuditLog
+WARNING: passwordField cannot be empty UTC_TIMESTAMP: [2017-09-01T19:13:50.895] USER: dkell40
+Sep 01, 2017 12:13:53 PM scheduler.Controller getAuditLog
+WARNING: Password cannot be less than four characters UTC_TIMESTAMP: [2017-09-01T19:13:53.678] USER: dkell40
+Sep 01, 2017 12:13:59 PM scheduler.Controller getAuditLog
+INFO: logged out UTC_TIMESTAMP: [2017-09-01T19:13:59.741] USER: null
+Oct 09, 2017 4:44:44 PM scheduler.Controller getAuditLog
+INFO:  Login success UTC_TIMESTAMP: [2017-10-09T23:44:44.963] USER: dkell40
+Oct 09, 2017 4:46:12 PM scheduler.Controller getAuditLog
+INFO: logged out UTC_TIMESTAMP: [2017-10-09T23:46:12.078] USER: dkell40
+Oct 11, 2017 10:57:55 PM scheduler.Controller getAuditLog
+INFO:  Login success UTC_TIMESTAMP: [2017-10-12T05:57:55.096] USER: dkell40
+Oct 11, 2017 11:32:07 PM scheduler.Controller getAuditLog
+INFO: logged out UTC_TIMESTAMP: [2017-10-12T06:32:07.473] USER: dkell40
+Oct 18, 2018 4:58:36 PM scheduler.Controller getAuditLog
+INFO: logged out UTC_TIMESTAMP: [2018-10-18T23:58:36.798] USER: null
+Oct 18, 2018 5:04:51 PM scheduler.Controller getAuditLog
+INFO: logged out UTC_TIMESTAMP: [2018-10-19T00:04:51.931] USER: null
+Oct 18, 2018 5:06:19 PM scheduler.Controller getAuditLog
+WARNING: Invalid user name UTC_TIMESTAMP: [2018-10-19T00:06:19.683] USER: WGUstudent 
+Oct 18, 2018 5:08:45 PM scheduler.Controller getAuditLog
+WARNING: Invalid user name UTC_TIMESTAMP: [2018-10-19T00:08:45.688] USER: WGUstudent 
+Oct 18, 2018 5:08:51 PM scheduler.Controller getAuditLog
+WARNING: Invalid user name UTC_TIMESTAMP: [2018-10-19T00:08:51.753] USER: WGUstudent
+Oct 18, 2018 5:08:59 PM scheduler.Controller getAuditLog
+WARNING: Invalid user name UTC_TIMESTAMP: [2018-10-19T00:08:59.848] USER: WGUstudent
+Oct 18, 2018 5:09:05 PM scheduler.Controller getAuditLog
+WARNING: passwordField cannot be empty UTC_TIMESTAMP: [2018-10-19T00:09:05.085] USER: dkell40
+Oct 18, 2018 5:09:16 PM scheduler.Controller getAuditLog
+INFO:  Login success UTC_TIMESTAMP: [2018-10-19T00:09:16.905] USER: dkell40
+Oct 18, 2018 5:48:52 PM scheduler.Controller getAuditLog
+INFO: logged out UTC_TIMESTAMP: [2018-10-19T00:48:52.374] USER: dkell40
+Oct 18, 2018 5:49:27 PM scheduler.Controller getAuditLog
+INFO: logged out UTC_TIMESTAMP: [2018-10-19T00:49:27.983] USER: null
+Oct 18, 2018 5:56:17 PM scheduler.Controller getAuditLog
+INFO:  Login success UTC_TIMESTAMP: [2018-10-19T00:56:17.428] USER: dkell40
+Oct 18, 2018 5:57:13 PM scheduler.Controller getAuditLog
+INFO: logged out UTC_TIMESTAMP: [2018-10-19T00:57:13.212] USER: dkell40
+Oct 18, 2018 5:57:16 PM scheduler.Controller getAuditLog
+INFO: logged out UTC_TIMESTAMP: [2018-10-19T00:57:16.794] USER: null
+Oct 18, 2018 5:57:23 PM scheduler.Controller getAuditLog
+INFO:  Login success UTC_TIMESTAMP: [2018-10-19T00:57:23.646] USER: test
+Oct 18, 2018 5:59:14 PM scheduler.Controller getAuditLog
+INFO: logged out UTC_TIMESTAMP: [2018-10-19T00:59:14.463] USER: test
+Oct 18, 2018 5:59:26 PM scheduler.Controller getAuditLog
+WARNING: Invalid password for UTC_TIMESTAMP: [2018-10-19T00:59:26.931]  USER: Evaluator
+Oct 18, 2018 5:59:26 PM scheduler.Controller getAuditLog
+WARNING: Invalid password for USER: Evaluator UTC_TIMESTAMP: [2018-10-19T00:59:26.947] USER: Evaluator
+Oct 18, 2018 5:59:34 PM scheduler.Controller getAuditLog
+WARNING: Invalid password for UTC_TIMESTAMP: [2018-10-19T00:59:34.432]  USER: Evaluator
+Oct 18, 2018 5:59:34 PM scheduler.Controller getAuditLog
+WARNING: Invalid password for USER: Evaluator UTC_TIMESTAMP: [2018-10-19T00:59:34.444] USER: Evaluator
+Oct 18, 2018 5:59:51 PM scheduler.Controller getAuditLog
+WARNING: Invalid user name UTC_TIMESTAMP: [2018-10-19T00:59:51.359] USER: WGUstudent
+Oct 18, 2018 6:00:11 PM scheduler.Controller getAuditLog
+INFO:  Login success UTC_TIMESTAMP: [2018-10-19T01:00:11.708] USER: dkell40
+Oct 18, 2018 6:00:45 PM scheduler.Controller getAuditLog
+INFO: logged out UTC_TIMESTAMP: [2018-10-19T01:00:45.852] USER: dkell40
+Oct 18, 2018 6:00:52 PM scheduler.Controller getAuditLog
+INFO:  Login success UTC_TIMESTAMP: [2018-10-19T01:00:52.457] USER: rhendrix50
+Oct 18, 2018 6:01:01 PM scheduler.Controller getAuditLog
+INFO: logged out UTC_TIMESTAMP: [2018-10-19T01:01:01.028] USER: rhendrix50
+Oct 18, 2018 6:01:06 PM scheduler.Controller getAuditLog
+WARNING: Invalid password for UTC_TIMESTAMP: [2018-10-19T01:01:06.902]  USER: Evaluator
+Oct 18, 2018 6:01:06 PM scheduler.Controller getAuditLog
+WARNING: Invalid password for USER: Evaluator UTC_TIMESTAMP: [2018-10-19T01:01:06.921] USER: Evaluator
+Oct 18, 2018 6:01:13 PM scheduler.Controller getAuditLog
+WARNING: Invalid password for UTC_TIMESTAMP: [2018-10-19T01:01:13.787]  USER: Evaluator
+Oct 18, 2018 6:01:13 PM scheduler.Controller getAuditLog
+WARNING: Invalid password for USER: Evaluator UTC_TIMESTAMP: [2018-10-19T01:01:13.798] USER: Evaluator
+Oct 18, 2018 6:01:39 PM scheduler.Controller getAuditLog
+INFO: logged out UTC_TIMESTAMP: [2018-10-19T01:01:39.170] USER: null

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="219.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="scheduler.controller.ReportsViewController">
+   <children>
+      <AnchorPane prefHeight="181.0" prefWidth="219.0">
+         <children>
+            <MenuButton fx:id="userCalendar" layoutX="27.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="165.0" text="Consultant Schedules" />
+            <Label fx:id="user" layoutX="121.0" layoutY="44.0" prefHeight="20.0" prefWidth="78.0" text="Label">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font></Label>
+            <Label fx:id="user1" layoutX="51.0" layoutY="64.0" prefHeight="25.0" prefWidth="126.0" text="Regional Statistics">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="0.7857142857142857" startX="1.0">
+                     <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="#3f28d0" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill></Label>
+            <TextArea layoutX="10.0" layoutY="90.0" prefHeight="108.0" prefWidth="209.0" text="Statistics are based on every &#10;appointment's customer location.&#10;If most of Global Consulting Group&#10;appointments are internal, then the&#10;Arizona branch should have majority.&#10;">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </TextArea>
+            <Label layoutX="19.0" layoutY="44.0" prefHeight="20.0" prefWidth="102.0" text="LOGGED IN AS:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="anchorPane" prefHeight="413.0" prefWidth="219.0">
+         <children>
+            <PieChart fx:id="pieChart" layoutX="2.0" prefHeight="435.0" prefWidth="209.0" />
+         </children></AnchorPane>
+   </children>
+</VBox>
